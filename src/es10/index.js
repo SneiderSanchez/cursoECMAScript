@@ -25,6 +25,6 @@ const entries = [
 
 console.log(Object.fromEntries(entries));
 
-const mySymbl = "My Symbol";
+let mySymbl = `My Symbol`;
 let symbol = Symbol(mySymbl);
-console.log(symbol.descripcion);
+console.log(symbol.description);
